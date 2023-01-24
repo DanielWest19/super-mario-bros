@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Super Mario Bros - O Filme</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="fundo-video">
+      <video class="video" autoplay loop muted>
+        <source src="/video/video-mario.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <header class="header">
+      <a>
+        <img
+          src="/assets/logo-chapeu-mario.png"
+          alt=" Logo do Chapéu vermelho do Mario"
+          class="logo"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li>Home</li>
+          <li>Details</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="container">
+      <div class="informacion">
+        <img src="./assets/titulo.png" alt="Logo escrita Super Mario Bros" />
+        <p>
+          Mario é um encanador junto com seu irmão Luigi. Um dia, eles vão parar
+          no reino dos cogumelos, governado pela Princesa Peach, mas ameaçado
+          pelo rei Koopas, que faz de tudo para reinar em todos os lugares.
+        </p>
+        <button class="buton-tailer">Veja o trailer</button>
+      </div>
+      <img
+        class="mario"
+        src="/assets/super-mario-chars.png"
+        alt="Foto do mario com seus amigos"
+      />
+    </main>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
