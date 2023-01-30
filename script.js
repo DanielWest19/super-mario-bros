@@ -4,12 +4,16 @@ const fecharModal = document.querySelector(".fechar-modal")
 const video = document.getElementById("trailer")
 const linkDoVideo = trailer.src
 
-butonTrailer.addEventListener("click", () => {
+function alternarModal() {
   modal.classList.toggle("aberto")
+}
+
+butonTrailer.addEventListener("click", () => {
+  alternarModal()
   video.setAttribute("src", linkDoVideo)
-});
+})
 
 fecharModal.addEventListener("click", () => {
-  modal.classList.toggle("aberto");
+   alternarModal()
   video.setAttribute("src", "")
-});
+})
