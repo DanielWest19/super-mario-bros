@@ -2,9 +2,9 @@ const butonTrailer = document.querySelector(".buton-trailer")
 const modal = document.querySelector(".modal")
 const fecharModal = document.querySelector(".fechar-modal")
 const video = document.getElementById("trailer")
-const linkDoVideo = trailer.src; 
+const linkDoVideo = trailer.src
 
-function alternarModal(){
+function alternarModal() {
   modal.classList.toggle("aberto")
 }
 
